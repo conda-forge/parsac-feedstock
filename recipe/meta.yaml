@@ -52,6 +52,7 @@ about:
   license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE
+  doc_url: https://parsac.readthedocs.io/
 
 extra:
   recipe-maintainers:
