@@ -1,5 +1,5 @@
 {% set name = "parsac" %}
-{% set version = "2.0.4" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/BoldingBruggeman/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e5b2fcd5b9c7632245141a41adf4158f0c5a63d35b5ef037ecb75c038d1e1fa6
+  sha256: 45849ab9da6c3e41f8586406ee9fe624bef108bf02304e4c1598717c2426df24
 
 build:
   noarch: python
