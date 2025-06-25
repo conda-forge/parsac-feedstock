@@ -9,6 +9,8 @@ Package license: GPL-2.0-only
 
 Summary: Parallel Sensitivity Analysis and Calibration
 
+Documentation: https://parsac.readthedocs.io/
+
 parsac is a Python-based tool for sensitivity analysis and auto-calibration in parallel.
 It is designed for analysis of models that take significant time to run. For that reason,
 it focuses on storing and exploiting every single model result, and performing model
