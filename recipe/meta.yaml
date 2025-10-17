@@ -1,5 +1,5 @@
 {% set name = "parsac" %}
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 10573b0ea38653c59c2bae66d7b26805ac755ed3fb0f82d45c67eb23082061f0
+  sha256: 1a7e10c4159ee89ef6997d21f2bf8404752273808abbb0eb2038998fbc17937e
 
 build:
   noarch: python
